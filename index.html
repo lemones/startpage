@@ -4,22 +4,35 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Start</title>
 	<script type="text/javascript" language="javascript" src="src.js"></script>
+	<script type="text/javascript" language="javascript" src="date.format.js"></script>
 </head>
 <body onload="init();">
 
-<!-- Stole'n'hacked JS code from twily.info-->
-
+<!-- Background image -->
 <div id="bg"></div>
 
+<!-- Sidebar -->
 <div id="sidebar">
     <div class="table-go">
+		<!-- Sidebar links -->
         <div class="table-tr" id="table-links">
             <div id="menu">
-                <ul id="mnu"></ul> <!-- Menu Content -->
+                <ul id="mnu"></ul>
             	<div id="menu-bg"></div>
             </div>
 		</div>
-        <div class="table-tr"></div>
+		<!-- Sidebar search form -->
+        <div class="table-tr" id="table-search">
+			<div class="form_p">
+				<form method="GET" name="google" target="_blank" action="https://google.com/search">
+					<input type="text" placeholder="Search..." name="q" />
+				</form>
+		</div>
+		<!-- Sidebar footer -->
+		<div class="table-tr" id="table-footer">
+			<ul id="date"></ul>
+		</div>
+
     </div>
 </div>
 

@@ -12,7 +12,6 @@ var menu=[ // Menu titles
     "Other",                                                                    // mnu_8
 ];
 
-
 var links=[
     ["Gmail",                           "https://gmail.com",                        "https://www.google.com/gmail/about/images/favicon.ico"],
     ["Aftonbladet",                     "http://aftonbladet.se",                    ""],
@@ -59,6 +58,7 @@ var links=[
 
 var showFavicon=true;
 var i,ss="";
+
 function init() {
     build();
 }
@@ -85,10 +85,21 @@ function build() {
             skip=false;
         }
     }
+
+    // Prints date from func printDate()
+    $('date').innerHTML+="<div id=\"date\">"+printDate()+"</div>";
+
 }
 
 function getFavicon(url) {
     var l=document.createElement("a");
     l.href=url;
     return l.protocol+"//"+l.hostname+"/favicon.ico";
+}
+
+function printDate() {
+    var now = new Date();
+	var dayt = now.format("dddd"); var dayi = now.format("dd");
+	var mnth = now.format("mmmm"); var year = now.format("yyyy");
+	return dayt+" the "+dayi+" "+mnth;
 }
