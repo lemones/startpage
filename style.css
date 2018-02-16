@@ -25,11 +25,16 @@ a:hover { color: #32C6FF; }
     box-shadow: 0 0 3px #111113;
 }
 
+#footer {
+    position: fixed; bottom: 5px; right: 20px;
+    z-index: 20;
+}
+
 .table-go { display: table; height: 100%; }
 .table-tr { display: table-row; }
 #table-links { height: auto; width: 100%; }
 #table-search { height: auto; width: 100%; }
-#table-footer { height: auto; width: 100%; }
+#table-footer { position: fixed; bottom: 5px; }
 
 #menu {
     width: 100%; cursor: default;
