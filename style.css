@@ -9,6 +9,13 @@ a:hover { color: #32C6FF; }
 * { box-sizing: border-box; }
 *:focus { outline: none !important; }
 
+.icon {
+
+}
+.icon-alt {
+  background-image: url(unknown.svg);
+}
+
 #bg {
     position: absolute; top: 0; left: 300px;
     width: calc(100% - 300px); height: 100%;

@@ -9,7 +9,7 @@ var menu=[ // Menu titles
     "Entertainment",                                                            // mnu_5
     "Theme",                                                                    // mnu_6
     "Security",                                                                 // mnu_7
-    "Other",                                                                    // mnu_8
+    "Reddit",                                                                   // mnu_8
 ];
 
 var links=[
@@ -20,7 +20,7 @@ var links=[
     ["", "", ""],
 
     ["Vim Awesome",                     "https://vimawesome.com/",                  "https://vimawesome.com/static/favicon.ico"],
-    ["linuxconfig",                     "https://linuxconfig.org/",                 ""],
+    ["linuxconfig",                     "https://linuxconfig.org/",                 "unknown.svg"],
     ["xero - code",                     "http://code.xero.nu/",                     ""],
     ["", "", ""],
 
@@ -33,6 +33,7 @@ var links=[
     ["Imgur",                           "https://imgur.com/",                       ""],
     ["9gag",                            "https://9gag.com/trending",                ""],
     ["WhatsTheHarm",                    "http://whatstheharm.net",                  ""],
+    ["xkcd",                           "https://xkcd.com/",                         ""],
     ["", "", ""],
 
     ["Wallhalla",                       "https://wallhalla.com/",                   ""],
@@ -51,9 +52,11 @@ var links=[
     ["zerossl",                         "https://zerossl.com/",                     ""],
     ["", "", ""],
 
-    ["Pro Toolz",                       "http://pro-toolz.net/index.html",          ""],
-    ["xkcd",                            "https://xkcd.com/",                        ""],
+    ["Popular",                         "https://www.reddit.com/r/popular",         ""],
+    ["science",                         "https://www.reddit.com/r/science/",        ""],
+    ["ask science",                     "https://www.reddit.com/r/askscience/",     ""],
     ["unixporn",                        "https://www.reddit.com/r/unixporn/",       ""],
+    ["iaf",                             "https://www.reddit.com/r/interestingasfuck/", ""],
 ];
 
 var showFavicon=true;
